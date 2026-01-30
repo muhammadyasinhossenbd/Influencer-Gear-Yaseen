@@ -1,0 +1,33 @@
+/* body {
+    background-color: blueviolet;
+} */
+.margin {
+    
+}
+
+/* nav CSS */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px
+}
+
+/* Hero CSS */
+
+.Hero {
+    display: flex;
+    gap: 200px;
+    margin-right: 150px;
+    background-image: ure;
+}
+
+img {
+    position: absolute;
+}
