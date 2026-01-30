@@ -1,33 +1,88 @@
 /* body {
     background-color: blueviolet;
 } */
-.margin {
-    
+body {
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+/* Shared style */
+.margin-uni {
+    margin-right: 120px;
+    margin-left: 120px;
+
+}
+
+.btn-pink {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: #E02C6D;
+    border: 2px solid #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+
+
 
 /* nav CSS */
 
 nav {
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
+
+li img,
+.btn-pink img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Hero CSS */
+.Hero {
+    margin-top: 41px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 15px
+.hero-banner {
+    background-image: url(./images/Circle\ design.svg);
+    background-size: cover;
 }
 
-/* Hero CSS */
-
-.Hero {
-    display: flex;
-    gap: 200px;
-    margin-right: 150px;
-    background-image: ure;
+.herohead {
+    font-size: 52px;
+    font-weight: 700;
 }
 
-img {
-    position: absolute;
+.herodesc {
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.logos {
+    margin: 100px 165px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E1E6ED;
+    border-bottom: 2px solid #E1E6ED;
+    padding: 36px;
+
 }
